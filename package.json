@@ -1,13 +1,13 @@
 {
   "name": "@egervari/vue-ui-components",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name vue-ui-components src/components/index.js",
     "lint": "vue-cli-service lint --fix",
     "publish": "npm publish --access public"
   },
-  "main": "./dist/vue-ui-components.common.js",
+  "main": "./dist/vue-ui-components.umd.js",
   "files": [
     "dist/*",
     "src/*",
